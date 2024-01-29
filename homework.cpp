@@ -2,13 +2,12 @@
 using namespace std;
 
 int main() {
-    // Declare variables to store user input
     string name;
     int age;
     char gender;
     float weight;
 
-    // Take input from the user
+    
     cout << "Enter your name: ";
     cin >> name;
 
@@ -20,9 +19,8 @@ int main() {
 
     cout << "Enter your weight: ";
     cin >> weight;
-
-    // Display the output
-    cout << endl << "User Information:" << endl;
+    
+    cout << endl << "Output" << endl;
     cout << "Name: " << name << endl;
     cout << "Age: " << age << endl;
     cout << "Gender: " << gender << endl;
